@@ -1,0 +1,53 @@
+/*facts*/
+/*tovar(id, name, category, price)*/
+/*10tovar*/
+
+tovar (1, "butter", "fat&oil" , 100).
+tovar(2, "chicken", "vegetable", 300).
+tovar(3, "biscuit", "snacks", 50).
+tovar (4, "groundnut oil", "fat&oil", 200).
+tovar(5, "apple", "fruit", 20).
+tovar(6, "banana", "fruit", 50).
+tovar(7, "eggs", "fat&oil", 270).
+tovar(8, "cookies", "snacks", 250).
+tovar(9, "book", "stationery", 120).
+tovar(10, "pen", "stationery", 25).
+
+/*client (name, telephone number, gender, client_status)
+    status enum: gold, silver, bronze
+*/
+/*5clients*/
+
+client("Tom", "89012345467", male, bronze).
+client("Mark", "89254312634", male, gold).
+client("Becky", "89015467856", female, bronze).
+client("Soler",  "89217450987", male, silver).
+client("Laura", "89043249021", female, gold).
+
+/*20sales*/
+
+/*sales(number, tovar(id), количество, day, month)*/
+
+sales("89254312634", 10, 11, 5, "May").
+sales("89015467856", 2, 3, 5, "May").
+sales("89012345467", 5, 20, 5, "May").
+sales("89254312634", 3, 5, 5, "May").
+sales("89015467856", 1, 7, 5, "May").
+
+sales("89217450987", 4, 2, 6, "May").
+sales("89043249021", 8, 1, 6, "May").
+sales("89254312634", 10, 3, 6, "May").
+sales("89217450987", 3, 6, 6, "May").
+sales("89012345467", 9, 7, 6, "May").
+
+sales("89043249021", 4, 9, 7, "May").
+sales ("89015467856", 7, 3, 7, "May").
+sales("89012345467", 9, 8, 7, "May").
+sales("89254312634", 1, 6, 7, "May").
+sales("89043249021", 3, 15, 7, "May").
+
+sales("89217450987", 5, 19, 8, "May").
+sales("89012345467", 8, 16, 8, "May").
+sales("89043249021", 7, 10, 8, "May").
+sales("89217450987", 4, 7, 8, "May").
+sales("89015467856", 2, 4, 8, "May").
